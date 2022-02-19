@@ -5,13 +5,13 @@ public interface Person {
     void setPhone(String number);
     void setEmail(String email);
     void setAddress(String address);
-    void setAge(String age);
+    void setAge(int age);
 
     String getName();
     String getPhone();
     String getEmail();
     String getAddress();
-    String getAge();
+    int getAge();
 
 
 }
