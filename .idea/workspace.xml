@@ -4,18 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75b0b285-e71f-4bd4-97a8-8061e44c723b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="085068b3-952a-4ed8-8118-9158f24b9802" name="Changes" comment="implementation" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="25LKEamDbwYwzPbVZ4zj7AYubHP" />
+  <component name="ProjectId" id="25LLjhcOx8XOBCPpf5sObREMNOG" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,18 +28,32 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Comp210-workspace/Assignment 1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Comp210-workspace/Assignment 1" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="75b0b285-e71f-4bd4-97a8-8061e44c723b" name="Default Changelist" comment="" />
-      <created>1645300818857</created>
+      <changelist id="085068b3-952a-4ed8-8118-9158f24b9802" name="Changes" comment="" />
+      <created>1645301557406</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1645300818857</updated>
+      <updated>1645301557406</updated>
     </task>
+    <task id="LOCAL-00001" summary="implementation">
+      <created>1645302186225</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645302186225</updated>
+    </task>
+    <task id="LOCAL-00002" summary="implementation">
+      <created>1645302227100</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645302227100</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -47,5 +66,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementation" />
   </component>
 </project>
