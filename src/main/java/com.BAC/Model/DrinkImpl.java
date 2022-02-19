@@ -1,9 +1,24 @@
 package com.BAC.Model;
 
 public class DrinkImpl implements Drink{
-    private String name;
-    private double ounces;
-    private double volume;
+    protected String name;
+    protected double ounces;
+    protected double volume;
+
+    public DrinkImpl(String name, double ounces, double volume) {
+        if (name == null) {
+            throw new IllegalArgumentException();
+        }
+        if (ounces < 0) {
+            throw new IllegalArgumentException();
+        }
+        if (volume < 0) {
+            throw new IllegalArgumentException();
+        }
+        this.name = name;
+        this.ounces = ounces;
+        this.volume = volume;
+    }
 
     @Override
     public String getName() {
