@@ -7,7 +7,6 @@ public abstract class Friends implements Person {
 
     @Override
     public void setName(String name) {
-
     }
 
     @Override
