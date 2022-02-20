@@ -7,6 +7,7 @@ public interface Person {
     void setAddress(String address);
     void setWeight(double weight);
     void setAge(int age);
+    void setGender(String gender);
 
     String getName();
     String getPhone();
@@ -14,6 +15,7 @@ public interface Person {
     String getAddress();
     double getWeight();
     int getAge();
+    String getGender();
 
 
 }

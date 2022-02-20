@@ -7,8 +7,9 @@ public class PersonImpl implements Person{
     protected String address;
     protected double weight;
     protected int age;
+    protected String gender;
 
-    public PersonImpl(String name, String number, String email, String address, double weight, int age) {
+    public PersonImpl(String name, String number, String email, String address, double weight, int age, String gender) {
         if (name == null) {
             throw new IllegalArgumentException();
         }
@@ -33,6 +34,7 @@ public class PersonImpl implements Person{
         this.address = address;
         this.weight = weight;
         this.age = age;
+        this.gender = gender;
     }
 
     @Override
@@ -66,6 +68,12 @@ public class PersonImpl implements Person{
     }
 
     @Override
+    public void setGender(String gender) {
+        this.gender = gender;
+
+    }
+
+    @Override
     public String getName() {
         return this.name;
     }
@@ -93,5 +101,10 @@ public class PersonImpl implements Person{
     @Override
     public int getAge() {
         return this.age;
+    }
+
+    @Override
+    public String getGender() {
+        return this.gender;
     }
 }

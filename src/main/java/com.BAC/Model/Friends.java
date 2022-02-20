@@ -6,8 +6,8 @@ import java.util.List;
 public class Friends extends PersonImpl {
     protected Person[] friends;
 
-    public Friends(String name, String number, String email, String address, double weight, int age) {
-        super(name, number, email, address, weight, age);
+    public Friends(String name, String number, String email, String address, double weight, int age, String gender) {
+        super(name, number, email, address, weight, age, gender);
     }
 
     //    public Friends() {

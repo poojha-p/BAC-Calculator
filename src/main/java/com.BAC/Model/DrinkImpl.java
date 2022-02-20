@@ -1,11 +1,15 @@
 package com.BAC.Model;
 
+import java.time.Instant;
+
 public class DrinkImpl implements Drink{
     protected String name;
     protected double ounces;
     protected double volume;
+    protected Time time;
 
-    public DrinkImpl(String name, double ounces, double volume) {
+
+    public DrinkImpl(String name, double ounces, double volume, Time time) {
         if (name == null) {
             throw new IllegalArgumentException();
         }
@@ -18,6 +22,8 @@ public class DrinkImpl implements Drink{
         this.name = name;
         this.ounces = ounces;
         this.volume = volume;
+        this.time = time;
+
     }
 
     @Override
@@ -49,4 +55,15 @@ public class DrinkImpl implements Drink{
     public void setOunces(double ounces) {
         this.ounces = ounces;
     }
+
+    @Override
+    public Instant getTime() {
+        return this.time.getStart();
+    }
+
+    @Override
+    public double getHour() {
+        return this.time.timeElapsed(this.time.getStart(), this.time.getEnd());
+    }
+
 }

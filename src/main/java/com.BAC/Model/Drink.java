@@ -1,5 +1,7 @@
 package com.BAC.Model;
 
+import java.time.Instant;
+
 public interface Drink {
 
     /** name of drink **/
@@ -20,5 +22,8 @@ public interface Drink {
     /** set ounces **/
     void setOunces(double ounces);
 
+    Instant getTime();
+
+    double getHour();
 
 }

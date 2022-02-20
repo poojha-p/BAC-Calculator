@@ -1,0 +1,33 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"75b0b285-e71f-4bd4-97a8-8061e44c723b\" name=\"Default Changelist\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/com.BAC/Model/TimeImpl.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com.BAC/Model/Drink.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com.BAC/Model/Drink.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com.BAC/Model/DrinkImpl.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com.BAC/Model/DrinkImpl.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com.BAC/Model/Time.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com.BAC/Model/Time.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task id=\"LOCAL-00001\" summary=\"changes?\">\r\n      <created>1645305409491</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1645305409492</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"changes?\">\r\n      <created>1645305517135</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1645305517135</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"changes?\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"changes?\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision f30bcc8265e335a19c8fe374b17b00e291dde9ee)
++++ b/.idea/workspace.xml	(date 1645317745928)
+@@ -4,12 +4,9 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="75b0b285-e71f-4bd4-97a8-8061e44c723b" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com.BAC/Model/TimeImpl.java" afterDir="false" />
++    <list default="true" id="8b7004f0-d20a-410e-8a17-d7e96bb7082e" name="Changes" comment="push code">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com.BAC/Model/Drink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.BAC/Model/Drink.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com.BAC/Model/DrinkImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.BAC/Model/DrinkImpl.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com.BAC/Model/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.BAC/Model/Time.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com.BAC/Model/Friends.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.BAC/Model/Friends.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -20,7 +17,6 @@
+     <option name="RECENT_TEMPLATES">
+       <list>
+         <option value="Interface" />
+-        <option value="Class" />
+       </list>
+     </option>
+   </component>
