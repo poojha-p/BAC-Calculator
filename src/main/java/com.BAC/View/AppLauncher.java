@@ -35,6 +35,7 @@ public static void main(String[] args) {
 //        scene1= new Scene(layout1,300,250);
 //        primaryStage.setScene(new Scene(root, 300, 250));
         primaryStage.show();
+
     }
 }
 
