@@ -1,9 +1,13 @@
 package com.BAC.Model;
 
+import java.util.ArrayList;
+
 public class DrinkImpl implements Drink{
     protected String name;
     protected double ounces;
     protected double volume;
+    protected ArrayList<Drink> drinks;
+    protected int num_drinks = 0;
 
     public DrinkImpl(String name, double ounces, double volume) {
         if (name == null) {
@@ -18,6 +22,7 @@ public class DrinkImpl implements Drink{
         this.name = name;
         this.ounces = ounces;
         this.volume = volume;
+        this.num_drinks ++;
     }
 
     @Override
@@ -48,5 +53,15 @@ public class DrinkImpl implements Drink{
     @Override
     public void setOunces(double ounces) {
         this.ounces = ounces;
+    }
+
+    @Override
+    public int getNumDrinks() {
+        return 0;
+    }
+
+    @Override
+    public void addDrink(Drink drink) {
+
     }
 }
