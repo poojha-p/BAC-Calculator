@@ -1,57 +1,25 @@
 package com.BAC.Model;
 
-public abstract class Friends implements Person {
-    public Friends() {
-        super();
+import java.util.ArrayList;
+import java.util.List;
+
+public class Friends extends PersonImpl {
+    protected Person[] friends;
+
+    public Friends(String name, String number, String email, String address, double weight, int age) {
+        super(name, number, email, address, weight, age);
     }
 
-    @Override
-    public void setName(String name) {
-
+    //    public Friends() {
+//        super();
+//    }
+//    public Friends(Person person) {
+//        super(person);
+////        super(person);
+//        List<Person> friendsList = new ArrayList<>();
+//    }
+    public void addFriend(Person person) {
+//        this.friends.add(person);
     }
 
-    @Override
-    public void setPhone(String number) {
-
-    }
-
-    @Override
-    public void setEmail(String email) {
-
-    }
-
-    @Override
-    public void setAddress(String address) {
-
-    }
-
-    @Override
-    public void setAge(int age) {
-
-    }
-
-    @Override
-    public String getName() {
-        return null;
-    }
-
-    @Override
-    public String getPhone() {
-        return null;
-    }
-
-    @Override
-    public String getEmail() {
-        return null;
-    }
-
-    @Override
-    public String getAddress() {
-        return null;
-    }
-
-    @Override
-    public int getAge() {
-        return 0;
-    }
 }
