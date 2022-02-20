@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,22 @@
     <title>BAC Calculator</title>
     <link rel="stylesheet" href="app.css">
 </head>
+
 <body>
     <h2>BAC Calculator</h2>
-        <form action="/action_page.php">
-            <label for="drink">What alcohol have you consumed?</label><br>
-            <input type="text" id="alc_brand" name="fname" value="John"><br>
-            <label for="weight">How much do you weigh?</label><br>
-            <input type="text" id="weight" name="lname" value="Doe"><br><br>
-            <label for="drink">What alcohol have you consumed?</label><br>
-            <input type="text" id="alc_brand" name="fname" value="John"><br>
-            <label for="weight">How much do you weigh?</label><br>
-            <input type="text" id="weight" name="lname" value="Doe"><br><br>
-            <input type="submit" value="Submit">
-          </form>
+    <form action="app.js">
+        <label for="drink">What alcohol have you consumed?</label><br>
+        <input type="text" id="alc_brand" name="fname" value="Vodka"><br>
+        <label for="weight">How much do you weigh?</label><br>
+        <input type="text" id="weight" name="lname" value="100.0"><br><br>
+        <label for="how_much">How much have you drank? (Guess in oz!)</label><br>
+        <input type="text" id="how_much_drunk_oz" name="fname" value="0.0"><br>
+        <label for="gender">Are you a man or a woman? (if nonbinary, please choose according to preference).</label><br>
+        <input type="text" id="gender" name="lname" value="[insert gender]"><br><br>
+        <input type="submit" value="Submit">
+    </form>
 </body>
+
+<script src="app.js"></script>
+
 </html>
