@@ -1,15 +1,15 @@
 package com.BAC.Model;
 
-import java.util.ArrayList;
+import java.time.Instant;
 
 public class DrinkImpl implements Drink{
     protected String name;
     protected double ounces;
     protected double volume;
-    protected ArrayList<Drink> drinks;
-    protected int num_drinks = 0;
+    protected Time time;
 
-    public DrinkImpl(String name, double ounces, double volume) {
+
+    public DrinkImpl(String name, double ounces, double volume, Time time) {
         if (name == null) {
             throw new IllegalArgumentException();
         }
@@ -22,7 +22,8 @@ public class DrinkImpl implements Drink{
         this.name = name;
         this.ounces = ounces;
         this.volume = volume;
-        this.num_drinks ++;
+        this.time = time;
+
     }
 
     @Override
@@ -56,12 +57,13 @@ public class DrinkImpl implements Drink{
     }
 
     @Override
-    public int getNumDrinks() {
-        return 0;
+    public Instant getTime() {
+        return this.time.getStart();
     }
 
     @Override
-    public void addDrink(Drink drink) {
-
+    public double getHour() {
+        return this.time.timeElapsed(this.time.getStart(), this.time.getEnd());
     }
+
 }

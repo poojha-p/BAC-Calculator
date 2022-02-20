@@ -1,9 +1,12 @@
 package com.BAC.Model;
 
+import java.time.Duration;
+import java.time.Instant;
+
 public interface Time {
-    void setTime(long start);
-    void setEnd(long end);
-    long getStart();
-    long getEnd();
-    long timeElapsed(long start, long end);
+    void setTime(Instant start);
+    void setEnd(Instant end);
+    Instant getStart();
+    Instant getEnd();
+    double timeElapsed(Instant start, Instant end);
 }
