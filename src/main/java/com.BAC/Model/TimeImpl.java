@@ -1,38 +1,42 @@
 package com.BAC.Model;
-import java.util.Calendar;
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
+import java.time.Instant;
 
 public class TimeImpl implements Time{
-    protected long startTime;
-    protected long endTime;
-    protected long elapsed;
+    protected Instant startTime;
+    protected Instant endTime;
+    protected Duration elapsed;
 
     public TimeImpl(){
+        this.startTime = Instant.now();
 
     }
 
     @Override
-    public void setTime(long start) {
+    public void setTime(Instant start) {
+        this.startTime = start;
 
     }
 
     @Override
-    public void setEnd(long end) {
-
+    public void setEnd(Instant end) {
+        this.endTime = Instant.now();
     }
 
     @Override
-    public long getStart() {
-        return 0;
+    public Instant getStart() {
+        return this.startTime;
     }
 
     @Override
-    public long getEnd() {
-        return 0;
+    public Instant getEnd() {
+        return this.endTime;
     }
 
     @Override
-    public long timeElapsed(long start, long end) {
-        return 0;
+    public double timeElapsed(Instant start, Instant end) {
+        Duration timeElapsed = Duration.between(start, end);
+        double hour = (double)timeElapsed.toHours() / 3600000;
+        return hour;
     }
 }
