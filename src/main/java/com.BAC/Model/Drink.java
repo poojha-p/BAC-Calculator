@@ -20,5 +20,8 @@ public interface Drink {
     /** set ounces **/
     void setOunces(double ounces);
 
+    int getNumDrinks();
+
+    void addDrink(Drink drink);
 
 }
