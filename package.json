@@ -1,0 +1,23 @@
+{
+  "name": "bac-calculator",
+  "version": "1.0.0",
+  "description": "Calculates BAC of someone based on the alcohol they are drinking, their weight, and other factors. Will update user on whether it is safe for them to engage in reckless-prone activites (i.e. driving) and caution user to stop drinking if BAC gets dangerously high. Also keeps emergency contacts in store to send generic messages to in case of rising BAC levels.",
+  "main": "app.js",
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poojha-p/BAC-Calculator.git"
+  },
+  "author": "Poojha Palle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poojha-p/BAC-Calculator/issues"
+  },
+  "homepage": "https://github.com/poojha-p/BAC-Calculator#readme",
+  "devDependencies": {
+    "http-server": "^14.1.0"
+  }
+}
