@@ -1,11 +1,20 @@
 body {
     font-family: monospace;
+    margin: auto;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+label {
+    margin: auto;
+    vertical-align: middle;
+    display: table-cell;
 }
 
 ul {
     font-family: helvetica;
 }
 
-.list {
-    font-family:Arial, Helvetica, sans-serif;
+list {
+    font-family: Arial, Helvetica, sans-serif;
 }
