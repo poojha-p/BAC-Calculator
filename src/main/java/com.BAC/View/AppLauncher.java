@@ -4,7 +4,9 @@ import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.layout.StackPane;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 public class AppLauncher extends Application{
@@ -18,20 +20,20 @@ public static void main(String[] args) {
 
     @Override
     public void start(Stage primaryStage) {
-        primaryStage.setTitle("Hello World!");
+        primaryStage.setTitle("BAC Calculator");
+        Label title = new Label("BAC Calculator");
+        Label description = new Label("Drink safe! Do not use this app as replacement for medical advice.");
         Button btn = new Button();
-        btn.setText("Say 'Hello World'");
-        btn.setOnAction(new EventHandler<ActionEvent>() {
+        btn.setText("Begin drinking");
+//        btn.setOnAction(e -> primaryStage.setScene(scene2));
+//        btn.setOnAction(event -> System.out.println("Hello World!"));
 
-            @Override
-            public void handle(ActionEvent event) {
-                System.out.println("Hello World!");
-            }
-        });
-
-        StackPane root = new StackPane();
+        VBox root = new VBox();
+        root.getChildren().add(title);
+        root.getChildren().add(description);
         root.getChildren().add(btn);
-        primaryStage.setScene(new Scene(root, 300, 250));
+//        scene1= new Scene(layout1,300,250);
+//        primaryStage.setScene(new Scene(root, 300, 250));
         primaryStage.show();
     }
 }

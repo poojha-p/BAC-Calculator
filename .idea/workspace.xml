@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b7004f0-d20a-410e-8a17-d7e96bb7082e" name="Changes" comment="commented out non-working elements of friends">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.BAC/Controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.BAC/Controller/ControllerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.BAC/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.BAC/View/AppLauncher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.BAC/View/FXComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.BAC/View/View.java" afterDir="false" />
+    <list default="true" id="8b7004f0-d20a-410e-8a17-d7e96bb7082e" name="Changes" comment="view template">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.BAC/View/AppLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.BAC/View/AppLauncher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +49,21 @@
       <option name="project" value="LOCAL" />
       <updated>1645315297664</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="view template">
+      <created>1645326500265</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1645326500265</updated>
+    </task>
+    <task id="LOCAL-00005" summary="view template">
+      <created>1645326533533</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1645326533533</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -72,6 +81,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changes?" />
     <MESSAGE value="commented out non-working elements of friends" />
-    <option name="LAST_COMMIT_MESSAGE" value="commented out non-working elements of friends" />
+    <MESSAGE value="view template" />
+    <option name="LAST_COMMIT_MESSAGE" value="view template" />
   </component>
 </project>
